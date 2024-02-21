@@ -1,0 +1,13 @@
+import { _ as _export_sfc, o as openBlock, c as createElementBlock, f as createStaticVNode } from "./app-5wU-U7Lk.js";
+const _sfc_main = {};
+const _hoisted_1 = /* @__PURE__ */ createStaticVNode('<p>Blog已经迁移完毕了，今天续费了域名并且进行了重定向，同时也宣告着博客的迁移工作画上了句号。</p><h2 id="blog的配置" tabindex="-1"><a class="header-anchor" href="#blog的配置" aria-hidden="true">#</a> Blog的配置</h2><ul><li>Vuepress</li><li>GitHub Pages</li><li>Vuepress-reco主题</li></ul><p>相关配置教程，网上一大堆，搭配自动化指令食用更佳。</p><p>这一套配置可以帮助你省去服务器的成本，当然可能会失去访问速度。</p><h2 id="reco主题的体验" tabindex="-1"><a class="header-anchor" href="#reco主题的体验" aria-hidden="true">#</a> reco主题的体验</h2><p>搭建完后给我的第一感觉是非常不错的，优点与缺点都有吧，相较于之前的Wordpress主题：</p><p>优点：</p><ol><li>在更加专注于写作的前提下，页面保留了一丝丝美感(符合我个人心中的博客主题)</li><li>支持markdown语法(其实更多的是Vuepress的功劳)</li><li>可配置的插件也挺多的，博客该有的都有</li></ol><p>缺点：</p><ol><li>文档写的不够详细，我踩坑了</li></ol><h2 id="reco主题的坑" tabindex="-1"><a class="header-anchor" href="#reco主题的坑" aria-hidden="true">#</a> reco主题的坑</h2><ol><li><p>关于时间轴</p><p>文档写的时间轴的路径为</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>/docs/timeLine/README.md\n</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>实际上为</p><blockquote><p>注意是.vuepress文件的子文件</p></blockquote><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>/docs/.vuepress/timeLine/README.md\n</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></li><li><p>关于文章的分类与标记</p><p>reco主题导航栏上的分类与标签，是根据你每篇markdown文件的<strong>Front Matter</strong>来增加与分类的。</p><p>例如此篇文章的Front Matter为：</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>title: 迁移完毕\nauthor: Licodeao\ndate: &#39;2022-8-25&#39;\ncategories: \n  - 日常\ntags: \n  - 序章\n</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>那么此时导航栏中的分类就会多出&quot;日常&quot;，标签中就会多出&quot;序章&quot;。</p></li></ol><h2 id="展望未来" tabindex="-1"><a class="header-anchor" href="#展望未来" aria-hidden="true">#</a> 展望未来</h2><p>浅浅算了一下，还有小半年，自己就将进入职场去实习了，时间好快！</p><p>后面的技术栈会偏向于React，而不在Vue上了，并不是Vue不好。</p><p>浅浅定一个暑期实习的目标：能进字节尽量进。</p>', 17);
+const _hoisted_18 = [
+  _hoisted_1
+];
+function _sfc_render(_ctx, _cache) {
+  return openBlock(), createElementBlock("div", null, _hoisted_18);
+}
+const First_page_html = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render], ["__file", "First page.html.vue"]]);
+export {
+  First_page_html as default
+};
